@@ -12,11 +12,11 @@ class App extends Component {
       <div>
         <div className = "jumbotron jumbotron-fluid">
           <div className = "container">
-            <h2 className = "display-4">Heroku Private Blockchain Admin</h2>
+            <h2 className = "display-4">Heroku Private Blockchain</h2>
             
-            {web3.isConnected() && <p className = "lead">Heroku Smart Contract Administration</p>}
+            {web3.isConnected() && <p className = "lead">Smart Contract Administration</p>}
 
-            {!web3.isConnected() && <p className = "lead">Initiating the smart contract instance</p>}
+            {!web3.isConnected() && <p className = "lead">Initiating your private instance</p>}
 
           </div>
         </div>

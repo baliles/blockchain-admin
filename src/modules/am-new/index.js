@@ -295,7 +295,7 @@ class AMNew extends Component {
 
                 <div class = "container">
                     <div class = "row">
-                        <h3>Deploy smart contract</h3> <br />
+                        <h3>Step 1: Deploy your Solidity-based Smart Contract</h3> <br />
                         <div className = "col-sm-6">
                             <div class="form-group">
 
