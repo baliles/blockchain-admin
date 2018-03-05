@@ -116,7 +116,7 @@ class ContractNew extends Component {
         console.log('Compile And Deploy started');
         
         this.setState({
-            statusMessage: 'Compiling contract',          
+            statusMessage: 'Compiling your Solidity Contract',          
             isDeployInProgress: true
         });
 
@@ -137,7 +137,7 @@ class ContractNew extends Component {
 
                     this.setState({
                         result,
-                        statusMessage: 'Compilation done successfully',
+                        statusMessage: 'Done! Now Select & Deploy a Contract below',
                         contractName: Object.keys(result.contracts)[0],
                         isDeployInProgress: false,
                         isCompileError: false
