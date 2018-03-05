@@ -335,7 +335,7 @@ class ContractNew extends Component {
 
                 <div className = "container">
                     <div className = "row">
-                        <h3>Step 1: Deploy your Solidity-based Smart Contract</h3> <br />
+                        <h3>Configure your Solidity-based Smart Contract</h3> <br />
                         <div className = "col-sm-6">
                             <div className="form-group">
 

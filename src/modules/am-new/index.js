@@ -198,7 +198,7 @@ class AMNew extends Component {
 
                     console.log('deployment err', err);
                     this.setState({
-                        statusMessage: 'deployment error: ' + err,
+                        statusMessage: 'Deployment Error: ' + err,
                         isDeployInProgress: false
                     });
 
@@ -211,9 +211,9 @@ class AMNew extends Component {
                         console.log('Contract transaction send: TransactionHash waiting for mining', newContract.transactionHash);
 
                         this.setState({
-                            statusMessage: 'Contract transaction send and waiting for mining...',
+                            statusMessage: '...waiting for Initial Contract Mining...',
                             thisTxHash: newContract.transactionHash,
-                            thisAddress: 'waiting to be mined for contract address...'
+                            thisAddress: '...waiting for Contract Address Mining...'
                         });
 
                     } else {
@@ -222,7 +222,7 @@ class AMNew extends Component {
                         console.log('newContract Mined', newContract);
                         console.log('Car Details', newContract.carDetails());
                         this.setState({
-                            statusMessage: 'Contract deployed successfully !!! ',
+                            statusMessage: 'Smart Contract deployed successfully!',
                             isDeployInProgress: false,
                             contractABI: abi,
                             thisAddress: newContract.address
