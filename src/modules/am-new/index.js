@@ -3,7 +3,6 @@ import AMNewContract from '../resource/am-new-contract.sol';
 import { web3, web3Connection } from '../../web3';
 import _ from 'lodash';
 import loader from '../img/tenor.gif';
-import logo from '../img/acme.png';
 
 class AMNew extends Component {
 
