@@ -35,10 +35,11 @@
 }
 
 .logo {
-  display: block;
+  /*display: block; */
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: url(https://s3.amazonaws.com/bucketeer-5e9d2f42-1039-486c-a74b-5eb4b8e724f1/ACME.png) no-repeat;
   width: 100px; /* Width of new image */
   height: 43px; /* Height of new image */
+  vertical-align: middle;
 }

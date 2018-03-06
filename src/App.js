@@ -12,7 +12,7 @@ class App extends Component {
       <div>
         <div className = "jumbotron jumbotron-fluid">
           <div className = "container">
-            <h2 className = "display-4"><div className = "logo"></div> Private Blockchain</h2>
+            <h2 className = "display-4"><h2 className = "logo"></h2>Private Blockchain</h2>
             
             {web3.isConnected() && <p className = "lead">Smart Contract Administration</p>}
 
